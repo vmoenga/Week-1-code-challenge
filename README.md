@@ -14,7 +14,7 @@ This is a simple web application that allows you to check the speed of a car and
 This is a simple web application that calculates the PAYE (Pay As You Earn) tax, NSSF (National Social Security Fund) contribution, and NHIF (National Hospital Insurance Fund) contribution for employees in Kenya based on their monthly income.
 
 ## HOW TO USE
-1. Clone this repository to your local machine using the command: git clone https://github.com/your-username/speed-detector.git
+1. Clone this repository to your local machine
 2. Open the index.html file in your web browser.
 
 
