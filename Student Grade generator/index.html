@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grade Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Grade Calculator</title>
 </head>
 <body>
-    <h1>Welcome to Victor's Grade Generator</h1>
-     <input id="numericGrade"/>
-     <button onclick="convert()">convert</button>
-     
+    <h1>Welcome to Victor's Grade Calculator</h1>
+    <label for="nameInput">Name:</label>
+    <input id="nameInput" type="text">
+    <br><br>
+    <label for="cssGradeInput">CSS Grade:</label>
+    <input id="cssGradeInput" type="number">
+    <br><br>
+    <label for="htmlGradeInput">HTML Grade:</label>
+    <input id="htmlGradeInput" type="number">
+    <br><br>
+    <label for="javascriptGradeInput">JavaScript Grade:</label>
+    <input id="javascriptGradeInput" type="number">
+    <br><br>
+    <button onclick="calculateGrades()">Calculate</button>
+    <h3 id="gradeDisplay"></h3>
 
-     <h3 id="gradeDisplay"></h3>
-    
- <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
